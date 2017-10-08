@@ -1,0 +1,16 @@
+#Generate funny animal names 
+
+import random
+
+zwierzeta = ['malpka','kotek','piesek','swinka','wiewioreczka','kogucik','kroliczek','foczka','sarenka','jelonek','kotek','swinka morska','jezyk','chomik','zyrafa','slonik','dzik','los','krecik','mis koala']
+
+cechy = ['piekny','smieszny','wesoly','psotny','smutny','wkurzony','spiacy','gruby','wyspany','chudy','najedzony','glodny']
+
+indexZwierzeta = len(zwierzeta)
+indexCechy = len(cechy)
+
+liczbaZwierzeta = random.randint(0,indexZwierzeta)
+liczbaCechy = random.randint(0,indexCechy)
+
+print(cechy[liczbaCechy]+' '+zwierzeta[liczbaZwierzeta])
+print(len(zwierzeta))
